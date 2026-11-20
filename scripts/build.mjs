@@ -1,1 +1,1 @@
-import {cp,rm,mkdir} from 'node:fs/promises';await rm('dist',{recursive:true,force:true});await mkdir('dist');for(const p of ['index.html','sw.js','src','public'])await cp(p,'dist/'+p,{recursive:true});console.log('Static build ready in dist/');
+import {cp,rm,mkdir} from 'node:fs/promises';await rm('dist',{recursive:true,force:true});await mkdir('dist');for(const p of ['index.html','manifest.webmanifest','sw.js','src','public'])await cp(p,'dist/'+p,{recursive:true});console.log('Static build ready in dist/');

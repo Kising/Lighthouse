@@ -1,1 +1,1 @@
-{"name":"lighthouse-demo","version":"3.0.0","type":"module","scripts":{"dev":"node scripts/server.mjs","build":"node scripts/build.mjs","test":"node --test tests/*.test.mjs"}}
+{"name":"lighthouse-demo","version":"4.0.0","type":"module","scripts":{"dev":"node scripts/server.mjs","build":"node scripts/build.mjs","test":"node --test tests/*.test.mjs"}}
